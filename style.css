@@ -37,14 +37,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: red solid 2px;
 }
 
 .box img{
     height:100%;
     width:100%;
     object-fit: cover;
-    border: red solid 2px;
 }
 
 .byline{
@@ -54,7 +52,7 @@
 }
 
 .selectionhead{
-    color:rgb(199, 77, 77); 
+    color:rgb(255, 0, 0); 
 }
 
 p{
@@ -109,6 +107,10 @@ p{
     color: black;
     margin-left: 3px;
 }
+.articlesection{
+    color: red;
+    padding-top: 10px;
+}
    
 @media screen and (max-width: 768px) {
 
@@ -157,7 +159,7 @@ p{
     }
 
     .sectionhead{
-        color: rgb(170, 0, 0);
+        color: rgb(255, 0, 0);
         margin-bottom: 10px;
         font-size: 16px;
     }
